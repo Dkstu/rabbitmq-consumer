@@ -6,7 +6,7 @@ use PhpAmqpLib\Connection\AMQPStreamConnection;
 use PhpAmqpLib\Message\AMQPMessage;
 
 $exchange = 'router';
-$queue = 'lineSend';
+$queue = 'test-consumer';
 $consumerTag = 'consumer';
 
 $host = "127.0.0.1";
